@@ -1,0 +1,22 @@
+.order-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(231, 226, 226);
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	.item-left {
+		flex-grow: 1;
+		padding-right: 60px;
+	}
+}
+
+.item-line {
+    display: flex;
+    align-items: center;
+}
+
+.item-time {
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+    padding-left: 5px;
+}
